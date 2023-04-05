@@ -165,16 +165,3 @@ GitHub.sublime-settings
 
 # IntelliJ IDEA
 *.iml
-static/theme-exclude-highlight.js
-static/theme-exclude-highlight.js.LICENSE.txt
-static/theme-exclude-moment-and-highlight.js
-static/theme-exclude-moment-and-highlight.js.LICENSE.txt
-static/theme-exclude-moment.js
-static/theme-exclude-moment.js.LICENSE.txt
-static/theme.css
-static/theme.js
-static/theme.js.LICENSE.txt
-static/fonts/_vendor/@fortawesome/fontawesome-free/webfa-brands-400.svg
-static/fonts/_vendor/@fortawesome/fontawesome-free/webfa-regular-400.svg
-static/fonts/_vendor/@fortawesome/fontawesome-free/webfa-solid-900.svg
-static/fonts/_vendor/flexslider/flexslider-icon.svg
