@@ -9,17 +9,22 @@ sans-serif;
 $article-footer-font: 'Fira Code',
 monospace;
 
+$theme-dark-aqua: #488a99;
+$theme-gold: #dbae58;
+$theme-charcoal: #4d585b;
+$theme-gray: #b4b4b4;
+
 // main colors
 $page-background-color: #f1f1f1;
-$base-color: #1d1f38;
-$special-color: #2D3642;
-$highlight-color: #5c8b59;
-$text-color: #222;
+$base-color: $theme-dark-aqua;
+$special-color: $theme-charcoal; 
+$highlight-color:$theme-gold; 
+$text-color:$theme-charcoal; 
 
 // easy styling
 $nav-background-color: $special-color;
 $nav-text-color: $page-background-color;
-$algolia-search-box-color: #444;
+$algolia-search-box-color: $theme-dark-aqua;
 $algolia-search-box-icon-color: #888;
 $algolia-search-box-background-color: #fafafa;
 $algolia-border-color: #e4e4e4;
