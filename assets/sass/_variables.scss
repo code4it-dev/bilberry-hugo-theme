@@ -9,14 +9,14 @@ sans-serif;
 $article-footer-font: 'Fira Code',
 monospace;
 
-$theme-dark-aqua: #746aa5;//giusto: #488a99;
+$theme-dark-aqua:  #488a99;
 $theme-gold:  #dbae58;
 $theme-charcoal: #4d585b;
 $theme-gray: #b4b4b4;
 
 // main colors
 $page-background-color: #f1f1f1;
-$base-color: #7dd404;// $theme-dark-aqua;
+$base-color:  $theme-dark-aqua;
 $special-color: $theme-charcoal; 
 $highlight-color:$theme-gold; 
 $text-color:$theme-charcoal; 
