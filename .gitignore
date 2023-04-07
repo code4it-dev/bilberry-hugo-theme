@@ -166,3 +166,8 @@ GitHub.sublime-settings
 # IntelliJ IDEA
 *.iml
 static/
+static/theme-exclude-highlight.js
+static/theme-exclude-moment-and-highlight.js
+static/theme-exclude-moment.js
+static/theme.css
+static/theme.js
