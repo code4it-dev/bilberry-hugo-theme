@@ -252,7 +252,7 @@ article {
         flex-direction: row;
         justify-content: space-between;
         background: transparentize($base-color, 0.90);
-
+        flex-wrap: wrap;
         font-family: $article-footer-font;
         font-size: 0.9em;
 
