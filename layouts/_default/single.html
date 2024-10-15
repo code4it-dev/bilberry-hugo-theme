@@ -7,6 +7,16 @@
         {{ end }}
     </div>
 
+    {{ if  (.Params.hideMyDescription | default  false) }}
+    {{ else }}
+
+    <div class="article-wrapper u-cf single">
+        <article class="default article">
+            {{ partial "about-the-author.html" . }}
+        </article>
+    </div>
+    {{ end }}
+
     {{ if ( .Params.showComments | default true ) }}
         <div id="comments-container">
             {{ template "_internal/disqus.html" . }}
@@ -15,4 +25,6 @@
             {{ partial "utterances.html" . }}
         </div>
     {{ end }}
+
+
 {{ end }}
