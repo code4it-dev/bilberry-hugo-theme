@@ -7,12 +7,16 @@
         {{ end }}
     </div>
 
+    {{ if  (.Params.hideRelatedContent | default  false) }}
+    {{ else }}
+
     <div class="article-wrapper u-cf single" >
         <article class="default article">
             {{ partial "related.html" . }}
         </article>
     </div>
 
+    {{ end }}
 
     {{ if  (.Params.hideMyDescription | default  false) }}
     {{ else }}
