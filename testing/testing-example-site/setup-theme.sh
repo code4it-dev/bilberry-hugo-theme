@@ -8,7 +8,6 @@ while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symli
 done
 DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
 
-
 THEME_TARGET_FOLDER="$DIR/themes/bilberry-hugo-theme"
 
 rm -rf "$THEME_TARGET_FOLDER" && true
