@@ -153,8 +153,6 @@ $(document).ready(function () {
         }
     });
 
-
-
     // Algolia-Search
     if ($('#activate-algolia-search').length) {
         let client = algoliasearch($('#algolia-search-appId').val(), $('#algolia-search-apiKey').val());

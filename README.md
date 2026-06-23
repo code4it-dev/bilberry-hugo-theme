@@ -1,7 +1,7 @@
-# Bilberry Hugo Theme
+# Bilberry Hugo Theme v4
 
 [![GitHub version](https://img.shields.io/github/release/Lednerb/bilberry-hugo-theme/all.svg?style=flat-square)](https://github.com/Lednerb/bilberry-hugo-theme/releases)
-[![Hugo Version](https://img.shields.io/badge/Hugo-%5E0.93.3-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
+[![Hugo Version](https://img.shields.io/badge/Hugo-%5E0.109.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
 [![Hugo Themes](https://img.shields.io/badge/Hugo_Themes-@Bilberry-ff4088)](https://themes.gohugo.io/themes/bilberry-hugo-theme/)
 
 [![Build GH-Pages](https://github.com/Lednerb/bilberry-hugo-theme/workflows/Update%20GitHub%20Pages/badge.svg)](https://github.com/Lednerb/bilberry-hugo-theme/deployments/activity_log?environment=github-pages)
@@ -99,7 +99,7 @@ Please use the following guidelines if you want to start a discussion:
 
 ## Requirements
 
-- **Hugo** (version >= 0.93.3), see this [guide](https://gohugo.io/getting-started/installing/) on how to install Hugo.
+- **Hugo** (version >= 0.109.0), see this [guide](https://gohugo.io/getting-started/installing/) on how to install Hugo.
 - **Git**, see this [guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) on how to install Git.
 - **Go** (version >= 1.18), optional, required only when the Bilberry theme is used as a Hugo module; see
   this [guide](https://go.dev/doc/install) on how to install Go.
@@ -150,7 +150,7 @@ hugo mod init github.com/<your-user>/my-new-blog
 ```
 
 Following the Hugo module initialization, you may have the following warning: module "
-github.com/Lednerb/bilberry-hugo-theme/v3" not found, which should be ignored.
+github.com/Lednerb/bilberry-hugo-theme" not found, which should be ignored.
 
 - Pull theme files to add new content to your website:
 
@@ -170,7 +170,7 @@ Use this option if you want to directly customize and maintain your own copy of 
 
 ```toml
 # Option 1 (recommended): adding the theme as a hugo module
-# theme = "github.com/Lednerb/bilberry-hugo-theme/v3"
+# theme = "github.com/Lednerb/bilberry-hugo-theme"
 
 # Option 2: cloning/copying the theme files
 theme = "bilberry-hugo-theme"
