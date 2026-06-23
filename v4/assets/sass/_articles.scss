@@ -54,19 +54,24 @@ article {
         }
 
         h2 {
-            font-size: 1.6em;
+            font-size: 1.8em;
+            text-decoration: underline;
         }
 
         h3 {
             font-size: 1.5em;
+            text-decoration: underline;
         }
 
         h4 {
             font-size: 1.4em;
+            text-decoration: underline;
+
         }
 
         h5 {
             font-size: 1.3em;
+            text-decoration: underline;
         }
 
         h6 {
@@ -160,9 +165,9 @@ article {
                     left: 0;
                     display: inline-block;
                     transition: left 0.3s ease-in-out;
-                    color: $highlight-color;
                     font-family: $content-font;
                     font-style: normal;
+                    color: $base-color;
 
                     span {
                         color: $meta-text-color;
@@ -170,7 +175,7 @@ article {
 
                     &:hover {
                         left: 10px;
-                        color: $base-color;
+                        color: $highlight-color;
                         text-decoration: none;
                     }
                 }
@@ -201,6 +206,7 @@ article {
             max-width: 100%;
             display: block;
             margin: 0 auto;
+            box-shadow: 0 0 7px 5px $base-color;
         }
 
         video {
@@ -210,8 +216,10 @@ article {
         #TableOfContents {
             display: block;
             background: transparent;
-            padding-bottom: 2rem;
             font-size: 1.2em;
+            border: solid;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
 
             ul {
                 display: list-item;
@@ -252,7 +260,7 @@ article {
         flex-direction: row;
         justify-content: space-between;
         background: transparentize($base-color, 0.90);
-
+        flex-wrap: wrap;
         font-family: $article-footer-font;
         font-size: 0.9em;
 

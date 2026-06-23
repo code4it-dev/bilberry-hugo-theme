@@ -24,6 +24,7 @@ footer {
             text-transform: uppercase;
             color: $footer-headline-color;
             padding-bottom: 0.75em;
+            text-decoration: underline;
         }
 
         ul {
@@ -40,12 +41,12 @@ footer {
                 left: 0;
                 display: inline-block;
                 transition: left 0.3s ease-in-out;
-                color: $highlight-color;
+                color: $base-color;
                 font-family: $content-font;
 
                 &:hover {
                     left: 10px;
-                    color: $base-color;
+                    color: $highlight-color;
                 }
             }
         }
